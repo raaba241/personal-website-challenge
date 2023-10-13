@@ -1,0 +1,25 @@
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(226, 32, 32);
+    color: #ffffff;
+}
+header h1 {
+    display:inline-block;
+    font-size: 40px;
+}
+
+header nav {
+    float: right;
+    padding-top: 20px;
+    
+}
+header nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+a {
+    color: white;
+}
