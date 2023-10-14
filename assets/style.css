@@ -1,25 +1,47 @@
+* {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(226, 32, 32);
-    color: #ffffff;
-}
-header h1 {
-    display:inline-block;
-    font-size: 40px;
-}
-
-header nav {
-    float: right;
-    padding-top: 20px;
-    
-}
-header nav ul li{
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 5px;
-}
-
-a {
+    background-color: black;
     color: white;
+    display: flex; 
+    justify-content: space-between;
+    
+
 }
+
+header h1 {
+    margin-left: 20px;
+}
+header ul {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    margin-right: 40px;
+}
+
+header ul li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#sub {
+    font-size: 35px;
+    display: flex;
+    height: 200px;
+    color: white;
+    background-image: url(./images/smoke-background-texture-black-abstract-design.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: end;
+    align-items: end;
+    padding: 20px;
+    color: rgb(253, 253, 253); 
+    font-weight: bold;
+}
+
