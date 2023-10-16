@@ -12,3 +12,7 @@ https://raaba241.github.io/personal-website-challenge/
 
 ![Alt text](./assets/images/top_part.png "Top Part of the website")
 ![Alt text](./assets/images/bottom_part.png "Bottom Part of the website")
+
+## Note for source 
+
+The html selector, the before and after global selector, and the resizing portion of my portfolio were taught to me by my tutor. I was stuck trying to style and went through the bootcamp tutor to help make it look organized. 
