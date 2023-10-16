@@ -36,7 +36,7 @@ header ul li {
     list-style-type: none;
     margin-left: 10px;
 }
-a{
+header a{
     color: white;
     text-decoration: none;
 }
@@ -99,6 +99,7 @@ h2 {
     width: 100%;
     border: 5px solid black;
     
+    
 }
 
 /* Styling For work2 */
@@ -112,13 +113,14 @@ article h3 {
 }
 
 article:first-child{
-    flex-basis: 100%
+    flex-basis: 100%;
+    
 }
 
 article {
 
     border: 5px solid black;
-    margin: 10px;
+    margin: 2px;
     flex: 1 0 47%;
     min-width: 300px;
     /* max-width: 47%; */
@@ -128,6 +130,16 @@ article {
 img {
     width: 100%;
     display: block; 
+    max-height: 300px;
+    opacity: 0.2;
+    transition: 0.3s;
+
+
+
+}
+
+img:hover {
+    opacity: 1;
 }
 
 .projects {
@@ -136,7 +148,7 @@ img {
 
 }
 
-.contact-me {
+#contact-me {
     display:flex;
     margin: 30px;
 
@@ -151,15 +163,16 @@ img {
 }
 #contact-info ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    
-
+   
     
 }
 
 #contact-info ul li{
-    margin-right: 300px;
+    margin-right: 100px;
     
 }
+
