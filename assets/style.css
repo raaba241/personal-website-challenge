@@ -1,9 +1,11 @@
+/* Tutor helped me with this section to avoid some empty spaces  */
 html {
     box-sizing: border-box;
 }
 *,*::before,*::after{
 
     box-sizing: inherit;
+    
 }
 /* fonts go in body */
 
@@ -12,6 +14,8 @@ body {
 
 
 }
+
+/* styling the header section */
 header {
     background-color: black;
     color: white;
@@ -19,6 +23,14 @@ header {
     justify-content: space-between;
     
 
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    margin-right: 900px;
+    margin-top: 20px;
+    border-radius:50%;
 }
 
 header h1 {
@@ -41,6 +53,7 @@ header a{
     text-decoration: none;
 }
 
+/* Styling the subheading section with cover image */
 #sub {
     display: flex;
     font-size: 35px; 
@@ -63,6 +76,7 @@ h2 {
     margin: 50px;
 }
 
+/* styling the bar that is used throughout the website to create separation */
 #bar {
     display: flex; 
     background-color: black;
@@ -71,52 +85,39 @@ h2 {
 
 }
 
+/* About me section of my project */
 #about-me {
     display: flex;
     margin: 30px;
     
 }
 
+
+
+
+/* styling for main work */
 #my-work {
 
     display: flex;
     margin: 30px;
 
 }
-
-/* styling for main work */
-#work1 h3 {
-
-    position:absolute;
-    color: white;
-    background-color: black;
-    padding: 15px;
-
-    
-}
-#work1 img {
-    
-    width: 100%;
-    border: 5px solid black;
-    
-    
-}
-
-/* Styling For work2 */
+/* Styling the text within the image */
 article h3 {
     display: flex;
     position:absolute;
     color: white;
     background-color: black;
     padding: 15px;
-    flex: 1 1 auto;
 }
 
+/* making the first pseudo selector, first child, 100% of the available space */
 article:first-child{
     flex-basis: 100%;
     
 }
 
+/* styling the other images */
 article {
 
     border: 5px solid black;
@@ -127,7 +128,7 @@ article {
 
 }
 
-img {
+main img {
     width: 100%;
     display: block; 
     max-height: 300px;
@@ -138,7 +139,7 @@ img {
 
 }
 
-img:hover {
+main img:hover {
     opacity: 1;
 }
 
@@ -148,6 +149,7 @@ img:hover {
 
 }
 
+/* Styling the contact information part of the website */
 #contact-me {
     display:flex;
     margin: 30px;
@@ -156,7 +158,6 @@ img:hover {
 
 #contact-info {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     
@@ -164,15 +165,17 @@ img:hover {
 #contact-info ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     list-style-type: none;
    
     
 }
 
-#contact-info ul li{
-    margin-right: 100px;
-    
+#contact-info ul{
+    display: flex;
+    justify-content: center;
 }
 
+#contact-info li{
+    margin-left: 10vw;
+    font-size: 20px;
+}
